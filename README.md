@@ -1,1 +1,1 @@
-https://beegbeegpig.github.io/rsschool-cv/cv
+https://beegbeegpig.github.io/rsschool-cv/index
