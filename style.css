@@ -1,0 +1,214 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.body-wrapper {
+    margin: 0 auto;
+    width: 1170px;
+    background-color: white;
+}
+
+li {
+    list-style-type: none; /* Убираем маркеры */
+}
+
+ul {
+    margin-left: 0; /* Отступ слева в браузере IE и Opera */
+    padding-left: 0; /* Отступ слева в браузере Firefox, Safari, Chrome */
+}
+
+.name-h1 {
+    text-align: center;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 66px;
+    line-height: 16px;
+    color: white;
+    padding-top: 46px;
+    padding-bottom: 10px;
+}
+
+.status-h2 {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 18px;
+    letter-spacing: 0.1px;
+    color: white;
+    mix-blend-mode: normal;
+    opacity: 0.9;
+}
+
+.link {
+    font-size:16px; 
+    color:palevioletred; 
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 18px;
+    letter-spacing: 0.1px;
+    mix-blend-mode: normal;
+    opacity: 0.7;
+}
+
+.link:hover {
+    color:plum;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 18px;
+    letter-spacing: 0.1px;
+    mix-blend-mode: normal;
+    opacity: 0.7;
+} 
+
+
+span {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 16px;
+    color: #212121;
+}
+
+.profile-li {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 18px;
+    letter-spacing: 0.1px;
+    color: #212121;
+    mix-blend-mode: normal;
+    opacity: 0.7;
+    margin-bottom: 37px;
+}
+
+.aboutme-h3 {
+    text-align: center;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 16px;
+    color: #212121; 
+}
+
+.skills-h3 {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 16px;
+    color: #212121;
+}
+
+.aboutme-text {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 18px;
+    letter-spacing: 0.1px;
+    color: #212121;
+    mix-blend-mode: normal;
+    opacity: 0.7;
+}
+
+.language-h3 {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 16px;
+    color: #212121;
+}
+
+.my-code {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 16px;
+    color: #212121;
+}
+
+.projects-name {
+     font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 16px;
+    color: #212121;
+}
+
+.profile-h3 {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 16px;
+    color: #212121;
+}
+
+.education-h3 {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 16px;
+    color: #212121;
+}
+
+.background-blue {
+    width: 1170px;
+    height: 472px;
+    
+
+}
+
+.head-wrapper {
+    position: relative;
+}
+
+.text-head-wrapper {
+    position: absolute;
+    top: 81px;
+    left: 68px;
+    border: 7px solid white;
+    width: 1026px;
+    height: 327px;
+}
+
+.avatar-profile {
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    border: 7px solid white;
+}
+
+.avatar-wrapper {
+    position: relative;
+    margin: 0;
+    padding-left: 408px;
+    padding-top: 14px;
+}
+
+.profile-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 91px;
+}
+
+.content-margin-wrapper {
+    margin: 0 auto;
+    width: 1000px;
+}

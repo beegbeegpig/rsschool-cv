@@ -1,19 +1,78 @@
 <!DOCTYPE html>
 <html lang="ru">
- <head>
- <meta charset="utf-8">
- <title>Maria Krivolapova</title>
- </head>
- <body>
-  <h1>Maria Krivolapova</h1>
-  <h2>Contacts</h2>
-  <ul>
-      <li>Phone: +78 885 004</li>
-      <li>E-mail: beegbeegpig@gmail.com</li>
-      <li>GitHub: beegbeegpig</li>
-  </ul>
-    <h2>About me</h2>
-    <p>I love big pigs, drawing and play League of Legends. I want to be frontend developer. Thank you for your attention. </p>
-    <img src="pig.jpg" alt="piggy">
- </body>
+  <head>
+  <meta charset="utf-8">
+  <title>Maria Krivolapova</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Raleway&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="body-wrapper">
+      <div - class="head-wrapper"><img class="background-blue" src="images/backblue.jpg" alt="background-blue">
+        <div class="text-head-wrapper">
+          <h1 class="name-h1">Maria Krivolapova</h1>
+          <h2 class="status-h2">Junior Front-End Developer</h2>
+          <div class="avatar-wrapper"><img class="avatar-profile" src="images/profilephoto.jpg" alt="avatar-profile"></div>
+        </div>
+      </div>
+      <div class="content-margin-wrapper">
+        <div class="profile-wrapper">
+          <h3 class="profile-h3">Profile</h3>
+          <ul>
+            <li class="profile-li"><span>Date of birth:</span> 12. 08. 1997</li>
+            <li class="profile-li"><span>Phone:</span> +7 944 234 0998</li>
+          </ul>
+          <ul>
+            <li class="profile-li"><span>Mail:</span> beegbeegpig@gmail.com</li>
+            <li class="profile-li"><span>Adress:</span> Russia, Kazan</li>
+          </ul>
+      </div>
+        <h3 class="education-h3">Education</h3>
+        <ul>
+          <li class="profile-li"> sep 2015 - may 2019 <span>Saint Petersburg State University of Industrial Technologies and Design</span> </li>
+          <li class="profile-li">sep 2019 - now <span> Kazan Federal University</span> </li>
+        </ul>
+        <h3 class="aboutme-h3">About me</h3>
+        <h4 class="aboutme-text"> My main education is an industrial designer. I've never done programming or layout before. For me, this is a new and unique experience that I wanted to go through. I am always interested in learning something new, and these courses are a good chance for me to change my activities and find myself in life. </h4>
+        <h3 class="skills-h3">Skills</h3>
+        <ul>
+          <li class="profile-li">Figma</li>
+          <li class="profile-li">Sketch</li>
+          <li class="profile-li">Adobe Photoshop</li>
+          <li class="profile-li">Web Design (HTML/CSS)</li>
+          <li class="profile-li">Adobe Illustrator</li>
+         </ul>
+         <h3 class="language-h3">Languages</h3>
+         <ul>
+           <li class="profile-li">English - B1</li>
+           <li class="profile-li">Russian - Native</li>
+         </ul>
+         <h3 class="my-code">My code</h3>
+         <pre><code class="codes-text">
+function chCoupon(enterCode, corrCode, currDate, expDate){
+    
+  let val1 = new Date()
+  let val2 = new Date()
+  val1.setTime(Date.parse(currDate));
+  val2.setTime(Date.parse(expDate));
+                      
+  if (enterCode === corrCode && val2 >= val1) {
+                            
+  return true 
+  }
+  else {
+                           
+ return false
+  }
+          
+chCoupon("123", "123", "July 9, 2015", "July 9, 2015")
+      </code></pre>
+      <h3 class="projects-name">Projects</h3>
+      <a class="link" href="https://vk.com/aestlouse" target="_blank">My group with ART</a>
+      </div>
+        
+    </div>
+  </body>
 </html>
