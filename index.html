@@ -10,7 +10,7 @@
   </head>
   <body>
     <div class="body-wrapper">
-      <div - class="head-wrapper"><img class="background-blue" src="images/backblue.jpg" alt="background-blue">
+      <div class="head-wrapper"><img class="background-blue" src="images/darkblue.jpg" alt="background-blue">
         <div class="text-head-wrapper">
           <h1 class="name-h1">Maria Krivolapova</h1>
           <h2 class="status-h2">Junior Front-End Developer</h2>
@@ -21,36 +21,71 @@
         <div class="profile-wrapper">
           <h3 class="profile-h3">Profile</h3>
           <ul>
-            <li class="profile-li"><span>Date of birth:</span> 12. 08. 1997</li>
-            <li class="profile-li"><span>Phone:</span> +7 944 234 0998</li>
+            <li class="profile-li"><span>Date of birth:</span>  12. 08. 1997</li>
+            <li class="profile-li"><span>Phone:</span>  +7 944 234 0998</li>
           </ul>
           <ul>
-            <li class="profile-li"><span>Mail:</span> beegbeegpig@gmail.com</li>
-            <li class="profile-li"><span>Adress:</span> Russia, Kazan</li>
+            <li class="profile-li2"><span>Mail:</span>  krivayalapka@gmail.com</li>
+            <li class="profile-li2"><span>Adress:</span>  Kazan, Russia</li>
           </ul>
       </div>
+      <hr>
+      <div class="education-wrapper">
         <h3 class="education-h3">Education</h3>
         <ul>
-          <li class="profile-li"> sep 2015 - may 2019 <span>Saint Petersburg State University of Industrial Technologies and Design</span> </li>
-          <li class="profile-li">sep 2019 - now <span> Kazan Federal University</span> </li>
+          <li class="education-li"> Sep 2015 - May 2019 </li>
+          <li class="education-li">Sep 2019 - Now </li>
         </ul>
+        <ul>
+          <li class="education-span"><span>Saint Petersburg State University of Industrial Technologies and Design</span></li>
+          <li class="education-span2"><span> Kazan Federal University</span></li>
+        </ul>
+      </div>
+      <hr>
         <h3 class="aboutme-h3">About me</h3>
         <h4 class="aboutme-text"> My main education is an industrial designer. I've never done programming or layout before. For me, this is a new and unique experience that I wanted to go through. I am always interested in learning something new, and these courses are a good chance for me to change my activities and find myself in life. </h4>
-        <h3 class="skills-h3">Skills</h3>
-        <ul>
-          <li class="profile-li">Figma</li>
-          <li class="profile-li">Sketch</li>
-          <li class="profile-li">Adobe Photoshop</li>
-          <li class="profile-li">Web Design (HTML/CSS)</li>
-          <li class="profile-li">Adobe Illustrator</li>
+        <hr>
+      <div class="block3-wrapper">
+        <div class="skillslanguaues-wrapper">
+          <h3 class="skills-h3">Skills</h3>
+          <ul>
+            <li class="skills-li">Figma</li>
+              <div class="skillline-wrapper">
+                <hr class="skill-progress">
+                <hr class="myskill" id="figma-skill">
+              </div>
+            <li class="skills-li">Sketch</li>
+              <div class="skillline-wrapper">
+                <hr class="skill-progress">
+                <hr class="myskill" id="sketch-skill">
+              </div>
+            <li class="skills-li">Adobe Photoshop</li>
+              <div class="skillline-wrapper">
+                <hr class="skill-progress">
+                <hr class="myskill" id="adobephoto-skill">
+              </div>
+            <li class="skills-li">Web Design (HTML/CSS)</li>
+              <div class="skillline-wrapper">
+                <hr class="skill-progress">
+                <hr class="myskill" id="web-skill">
+              </div>
+            <li class="skills-li">Adobe Illustrator</li>
+              <div class="skillline-wrapper">
+                <hr class="skill-progress">
+                <hr class="myskill" id="adobeil-skill">
+              </div>
+          </ul>
+          <h3 class="language-h3">Languages</h3>
+          <ul>
+            <li class="language-li">English - B1</li>
+            <li class="language-li">Russian - Native</li>
          </ul>
-         <h3 class="language-h3">Languages</h3>
-         <ul>
-           <li class="profile-li">English - B1</li>
-           <li class="profile-li">Russian - Native</li>
-         </ul>
+        </div>
+        <hr width="1" size="550">
+        <div class="codelink-wrapper">
          <h3 class="my-code">My code</h3>
          <pre><code class="codes-text">
+      
 function chCoupon(enterCode, corrCode, currDate, expDate){
     
   let val1 = new Date()
@@ -68,11 +103,19 @@ function chCoupon(enterCode, corrCode, currDate, expDate){
   }
           
 chCoupon("123", "123", "July 9, 2015", "July 9, 2015")
-      </code></pre>
-      <h3 class="projects-name">Projects</h3>
-      <a class="link" href="https://vk.com/aestlouse" target="_blank">My group with ART</a>
+          </code></pre>
+          <h3 class="projects-name">Projects</h3>
+          <a class="link" href="https://vk.com/aestlouse" target="_blank">My group with ART</a>
+        </div>
       </div>
-        
-    </div>
+    </div>  
+    <footer>
+      <div class="footer-wrapper">
+        <a class="link-github" href="https://github.com/beegbeegpig" target="_blank"><img class="github-logo" src="images/githublogo.png" alt="github-logo"></a>
+        <h5 class="foot-text">2022 by Maria Krivolapova</h5>
+        <a class="link-rsc" href="https://rs.school/js/" target="_blank"><img class="rsschool-logo" src="images/logo-trs.svg" alt="rs-school"></a>
+      </div>
+    </footer>   
+ </div>
   </body>
 </html>
