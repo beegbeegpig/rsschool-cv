@@ -1,1 +1,1 @@
-# rsschool-cv
+https://beegbeegpig.github.io/rsschool-cv/

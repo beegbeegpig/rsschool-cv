@@ -1,0 +1,398 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.body-wrapper {
+    margin: 0 auto;
+    width: 1170px;
+    background-color: whitesmoke;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); 
+}
+
+li {
+    list-style-type: none; /* Убираем маркеры */
+}
+
+ul {
+    margin-left: 0; /* Отступ слева в браузере IE и Opera */
+    padding-left: 0; /* Отступ слева в браузере Firefox, Safari, Chrome */
+}
+
+.name-h1 {
+    text-align: center;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 66px;
+    line-height: 16px;
+    color: white;
+    padding-top: 46px;
+    padding-bottom: 10px;
+}
+
+.status-h2 {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 18px;
+    letter-spacing: 0.1px;
+    color: white;
+    mix-blend-mode: normal;
+    opacity: 0.9;
+}
+
+.link {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 18px;
+    letter-spacing: 0.1px;
+    color: #212121;
+    mix-blend-mode: normal;
+    opacity: 0.7;
+}
+
+.link:hover {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 18px;
+    letter-spacing: 0.1px;
+    color:  rgb(42, 82, 190);
+    mix-blend-mode: normal;
+    opacity: 0.7;
+} 
+
+
+span {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 16px;
+    color: #212121;
+}
+
+.skills-li {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 18px;
+    letter-spacing: 0.1px;
+    color: #212121;
+    mix-blend-mode: normal;
+    opacity: 0.7;
+}
+
+.language-li {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 38px;
+    letter-spacing: 0.1px;
+    color: #212121;
+    mix-blend-mode: normal;
+    opacity: 0.7;
+}
+
+.profile-li {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 18px;
+    letter-spacing: 0.1px;
+    color: #212121;
+    mix-blend-mode: normal;
+    opacity: 0.7;
+    margin-bottom: 27px;
+    padding-top: 9px;
+    padding-left: 96px;
+}
+
+.profile-li2 {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 18px;
+    letter-spacing: 0.1px;
+    color: #212121;
+    mix-blend-mode: normal;
+    opacity: 0.7;
+    margin-bottom: 27px;
+    padding-top: 9px;
+    margin-right: 15px;
+}
+
+.education-li {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 18px;
+    letter-spacing: 0.1px;
+    color: #212121;
+    mix-blend-mode: normal;
+    opacity: 0.7;
+    margin-top: 93px;
+    margin-left: -132px;
+    margin-bottom: -13px;
+}
+
+.education-span {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 16px;
+    color: #212121;
+    margin-top: 85px;
+    margin-left: 122px;
+    margin-bottom: 0px;
+    padding-right: 153px;
+    line-height: 1.5;
+}
+
+.education-span2 {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 16px;
+    color: #212121;
+    margin-top: 56px;
+    margin-left: 127px;
+    margin-bottom: 50px;
+}
+
+
+.aboutme-h3 {
+    text-align: center;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 16px;
+    color: #212121;
+    margin-top: 60px;
+}
+
+.skills-h3 {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 16px;
+    color: #212121;
+}
+
+.aboutme-text {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #212121;
+    mix-blend-mode: normal;
+    opacity: 0.7;
+    margin-bottom: 50px;
+}
+
+.language-h3 {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 16px;
+    color: #212121;
+    margin-top: 73px;
+}
+
+.my-code {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 16px;
+    color: #212121;
+}
+
+.projects-name {
+     font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 16px;
+    color: #212121;
+}
+
+.profile-h3 {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 16px;
+    color: #212121;
+}
+
+.education-h3 {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 16px;
+    color: #212121;
+    margin-top: 45px;
+}
+
+.background-blue {
+    width: 1170px;
+    height: 472px;
+    
+
+}
+
+.head-wrapper {
+    position: relative;
+}
+
+.text-head-wrapper {
+    position: absolute;
+    top: 81px;
+    left: 68px;
+    border: 7px solid white;
+    width: 1026px;
+    height: 327px;
+}
+
+.avatar-profile {
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    border: 7px solid white;
+}
+
+.avatar-wrapper {
+    position: relative;
+    margin: 0;
+    padding-left: 408px;
+    padding-top: 14px;
+}
+
+.profile-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 91px;
+}
+
+.content-margin-wrapper {
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.education-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.block3-wrapper {
+    display: flex;
+}
+
+
+pre {
+
+}
+
+.skill-progress {
+    width: 300px;
+    border: 15px solid rgb(0, 0, 0);
+    border-bottom-width: 0;
+    margin: 0;
+    opacity: 0.3;
+}
+
+.myskill {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 0;
+    border: 15px solid rgb(42, 82, 190);
+    border-bottom-width: 0;
+    margin: 0;
+}
+
+.skillline-wrapper {
+    position: relative;
+    margin: 10px 0px 10px 0px;
+}
+
+#figma-skill {
+    width: 100px;
+}
+
+#sketch-skill {
+    width: 120px;
+}
+
+#adobephoto-skill {
+    width: 230px;
+}
+
+#web-skill {
+    width: 150px;
+}
+
+#adobeil-skill {
+    width: 90px;
+}
+
+.block3-wrapper > hr {
+    margin-left: 200px;
+}
+
+.footer-wrapper {
+    display: flex;
+    background-color: white;
+    justify-content: space-around;
+
+}
+
+.github-logo {
+    width: 80px;
+    height: 80px;
+    margin-top: 13px;
+    margin-left: 10px;
+}
+
+.rsschool-logo {
+    width: 100px;
+    height: 100px;
+}
+
+.foot-text {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 18px;
+    letter-spacing: 0.1px;
+    color: #212121;
+    mix-blend-mode: normal;
+    opacity: 0.7;
+}
+
+#vert-hr {
+    
+    width: 1px; 
+    height: 550px;
+}
